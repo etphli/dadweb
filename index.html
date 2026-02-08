@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perspective Painting - Commercial Painting. New Perspective.</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="homepage">
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="perspective-logo.svg" alt="Perspective Painting" onclick="window.location.href='index.html'" style="cursor: pointer; height: 50px;">
+            </div>
+            <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
+                <span class="sr-only">Menu</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <ul id="primary-navigation" data-visible="false">
+                <li><a href="index.html">Home</a></li>
+                <li class="dropdown">
+                    <a href="about.html">About</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="our-perspective.html">Our Perspective</a></li>
+                        <li><a href="our-team.html">Our Team</a></li>
+                        <li><a href="featured-projects.html">Featured Projects</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="strata.html">Strata</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="strata-painting.html">Strata Painting</a></li>
+                        <li><a href="maintenance.html">Maintenance</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="commercial.html">Commercial</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="hospitality-retail.html">Hospitality and Retail</a></li>
+                        <li><a href="office-fitout.html">Office Fit out and Centre Management</a></li>
+                        <li><a href="medical-healthcare.html">Medical & Healthcare Facilities</a></li>
+                        <li><a href="light-industrial.html">Light Industrial</a></li>
+                    </ul>
+                </li>
+                <li><a href="government.html">Government</a></li>
+                <li><a href="construction.html">Construction</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- NEW HERO BANNER START -->
+    <div class="hero-banner">
+        <div class="hero-content">
+            <h1>Commercial Painting. New Perspective.</h1>
+            <div class="rotating-images">
+                <div class="rotating-slide active">
+                    <img src="https://images.unsplash.com/photo-1562259949-e8e7689d7828?w=1200&h=600&fit=crop" alt="Professional Painting Team">
+                </div>
+                <div class="rotating-slide">
+                    <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1200&h=600&fit=crop" alt="Modern Building Exterior">
+                </div>
+                <div class="rotating-slide">
+                    <img src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=1200&h=600&fit=crop" alt="Construction Project">
+                </div>
+            </div>
+            <p>Professional painting services for strata, commercial, and government projects across Sydney's Eastern Suburbs and Lower North Shore.</p>
+            <a href="#about" class="hero-button">Discover More</a>
+        </div>
+    </div>
+    <!-- NEW HERO BANNER END -->
+
+    <main>
+        <!-- Image Carousel Section -->
+        <section id="carousel">
+            <div class="carousel-container">
+                <div class="carousel-slides">
+                    <div class="carousel-slide active">
+                        <img src="West-end-glebe.jpg" alt="West End Glebe Strata Complex">
+                        <div class="carousel-caption">
+                            <h3>West End Glebe Strata Complex</h3>
+                            <p>120-unit exterior renovation with waterproofing</p>
+                        </div>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="Cambridge-hotel.jpg" alt="Cambridge Hotel Renovation">
+                        <div class="carousel-caption">
+                            <h3>Cambridge Hotel Renovation</h3>
+                            <p>Luxury hospitality interior and exterior painting</p>
+                        </div>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="Arc-by-crown.jpg" alt="Arc by Crown Casino">
+                        <div class="carousel-caption">
+                            <h3>Arc by Crown Casino</h3>
+                            <p>Premium entertainment venue with decorative finishes</p>
+                        </div>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="Black-town-mentalhealth.webp" alt="Blacktown Mental Health Facility">
+                        <div class="carousel-caption">
+                            <h3>Blacktown Mental Health Facility</h3>
+                            <p>Healthcare facility with antimicrobial coatings</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-btn prev" onclick="changeSlide(-1)">‹</button>
+                <button class="carousel-btn next" onclick="changeSlide(1)">›</button>
+                <div class="carousel-dots">
+                    <span class="dot active" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Us Section -->
+        <section id="about">
+            <div class="container">
+                <h2>About Us</h2>
+                <p class="about-intro">With over 40 years of experience, Perspective Painting delivers strata, commercial, and hospitality projects across Sydney's Eastern Suburbs and Lower North Shore on time, on budget, and with a finish that speaks for itself.</p>
+                
+                <!-- Three Columns -->
+                <div class="three-columns">
+                    <div class="column">
+                        <div class="column-icon">💬</div>
+                        <h3>Communication</h3>
+                        <p>Clear, consistent communication with builders, project managers, and those currently using the area. We understand the importance of keeping all stakeholders informed throughout every phase of your project.</p>
+                    </div>
+                    <div class="column">
+                        <div class="column-icon">⭐</div>
+                        <h3>Quality</h3>
+                        <p>Meticulous preparation, premium materials, and licensed professionals ensure every project meets the highest standards. Our attention to detail and commitment to excellence shows in every finish.</p>
+                    </div>
+                    <div class="column">
+                        <div class="column-icon">🎯</div>
+                        <h3>Delivery</h3>
+                        <p>On time, on budget, every time. We pride ourselves on reliable project completion that respects your timeline and budget constraints without compromising on quality.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services">
+            <div class="container">
+                <h2>Our Services</h2>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <h3>Strata Painting</h3>
+                        <a href="strata.html" class="service-link">Learn More →</a>
+                    </div>
+                    <div class="service-card">
+                        <h3>Commercial Painting</h3>
+                        <a href="commercial.html" class="service-link">Learn More →</a>
+                    </div>
+                    <div class="service-card">
+                        <h3>Government Projects</h3>
+                        <a href="government.html" class="service-link">Learn More →</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section id="testimonials">
+            <div class="container">
+                <h2>Feedback from our clients</h2>
+                <div class="testimonials-grid">
+                    <div class="testimonial-card featured">
+                        <div class="quote-icon">"</div>
+                        <p>"Perspective Painting transformed our entire office complex. Their attention to detail and professional approach made the whole process seamless. The quality of work exceeded our expectations."</p>
+                        <div class="testimonial-author">
+                            <strong>Sarah Mitchell</strong>
+                            <span>Property Manager, Chatswood Business Centre</span>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="quote-icon">"</div>
+                        <p>"Outstanding service from start to finish. They completed our strata painting project on time and within budget. Highly recommend for any commercial painting needs."</p>
+                        <div class="testimonial-author">
+                            <strong>Michael Chen</strong>
+                            <span>Building Manager, Eastern Suburbs</span>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="quote-icon">"</div>
+                        <p>"Professional, reliable, and the finish quality is exceptional. Perspective Painting has been our go-to contractor for over 5 years."</p>
+                        <div class="testimonial-author">
+                            <strong>Emma Thompson</strong>
+                            <span>Facilities Director, North Shore Medical</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action Section -->
+        <section id="cta">
+            <div class="container">
+                <div class="cta-content">
+                    <h2>Ready to Transform Your Space?</h2>
+                    <p>Get in touch with our expert team for a free consultation and quote</p>
+                    <a href="contact-info.html" class="cta-button">Reach Out Today</a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Contact Info</h4>
+                <p><strong>Phone:</strong> <a href="tel:0411339977">0411 339 977</a></p>
+                <p><strong>Email:</strong> <a href="mailto:alikht@perspectiveholding.com.au">alikht@perspectiveholding.com.au</a></p>
+                <p><strong>Service Areas:</strong> Sydney's Eastern Suburbs & Lower North Shore</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="strata.html">Strata Services</a></li>
+                    <li><a href="commercial.html">Commercial Services</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Services</h4>
+                <ul>
+                    <li><a href="strata-painting.html">Strata Painting</a></li>
+                    <li><a href="hospitality-retail.html">Hospitality & Retail</a></li>
+                    <li><a href="office-fitout.html">Office Fit Out</a></li>
+                    <li><a href="government.html">Government Projects</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Perspective Painting. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
